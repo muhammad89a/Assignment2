@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    tools:context="com.example.mohammed.assignment2.mainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+   <Button
+       android:id="@+id/btn1"
+       android:layout_width="66dp"
+       android:layout_height="wrap_content"
+       android:background="@color/red"
+       android:layout_margin="10dp"
+       style="@style/MyButton"
+       android:text="Button 1"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="66dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Green"
+        style="@style/MyButton"
+        android:text="Button 2"/>
+    <Button
+        android:id="@+id/btn3"
+        android:visibility="visible"
+        android:layout_width="66dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        style="@style/MyButton"
+        android:text="Replace"/>
+   <Button
+       android:id="@+id/btn4"
+       android:visibility="visible"
+       android:layout_width="66dp"
+       android:layout_margin="10dp"
+       android:layout_height="wrap_content"
+       android:background="@color/magentaa"
+       style="@style/MyButton"
+       android:text="2nd main"/>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/contentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
